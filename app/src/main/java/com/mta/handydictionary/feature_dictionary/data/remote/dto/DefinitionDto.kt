@@ -5,7 +5,7 @@ import com.mta.handydictionary.feature_dictionary.domain.model.Definition
 data class DefinitionDto(
   val antonyms: List<String>,
   val definition: String,
-  val example: String,
+  val example: String?,
   val synonyms: List<String>,
 ) {
   fun toDefinition(): Definition {
