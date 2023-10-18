@@ -90,10 +90,10 @@ dependencies {
   implementation("com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.2")
 
   // Room
-  implementation("androidx.room:room-runtime:2.3.0")
-  kapt("androidx.room:room-compiler:2.3.0")
+  implementation("androidx.room:room-runtime:2.5.2")
+  kapt("androidx.room:room-compiler:2.5.2")
 
   // Kotlin Extensions and Coroutines support for Room
-  implementation("androidx.room:room-ktx:2.3.0")
+  implementation("androidx.room:room-ktx:2.5.2")
 
 }
